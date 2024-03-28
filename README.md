@@ -30,7 +30,13 @@ Clone the repository and Run `terraform init`. This will intialize the terraform
 ### Optionally review the terraform configuration
 
 Run `terraform plan` to see the configuration it creates when executed.
+```
+terraform plan
+```
 
 ### Finally, Apply terraform configuation to create EKS cluster with VPC 
 
 `terraform apply`
+```
+terraform apply 
+```
